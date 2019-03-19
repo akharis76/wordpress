@@ -1,5 +1,5 @@
 FROM php:7.1-apache
-LABEL mylabel
+LABEL mylabel-newlabel
 # install the PHP extensions we need
 RUN set -ex; \
 	\
